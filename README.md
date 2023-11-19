@@ -9,7 +9,7 @@ and a trie-based method for reads containing mismatches.
 The script is designed to be run from the command line with the following syntax:
 
 ```bash
-python DNA_CODE_Breaker.py reads_file reference_file Mismatch_Flag
+python DNA_Code_Breaker.py reads_file reference_file Mismatch_Flag
 ```
 
 
@@ -25,7 +25,7 @@ Exact Reads Assembly (Mismatch_Flag = N).<br>
 If Mismatch_Flag is set to N, the script performs assembly of exact reads. The De Bruijn graph approach is used to construct the graph, identify source and sink nodes, find cycles, and assemble the genome sequence.<br>
 **Example to run file:**
 ```bash
-python DNA_CODE_Breaker.py reads.txt reference.txt N
+python DNA_Code_Breaker.py reads.txt reference.txt N
 ```
 
 ## Trie Use
@@ -33,7 +33,7 @@ Reads Assembly with Mismatches (Mismatch_Flag = Y).<br>
 If Mismatch_Flag is set to Y, the script considers mismatches in the reads. The script constructs a trie using the reads file and performs trie matching against the reference genome. The resulting assembly includes positions for each matched pattern.<br>
 **Example to run file:**
 ```bash
-python DNA_CODE_Breaker.py reads.txt reference.txt Y
+python DNA_Code_Breaker.py reads.txt reference.txt Y
 ```
 
 ## Output
