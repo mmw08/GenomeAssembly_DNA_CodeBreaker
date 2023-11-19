@@ -1,7 +1,7 @@
 # GenomeAssembly_DNA_CodeBreaker
 ## Introduction
 
-This Python script, named DNA_CODE_Breaker.py, is designed for DNA sequence assembly. The assembly process can be performed with or without considering mismatches in the reads. The script utilizes a De Bruijn graph approach for exact reads assembly,
+This Python script, named DNA_Code_Breaker.py, is designed for DNA sequence assembly. The assembly process can be performed with or without considering mismatches in the reads. The script utilizes a De Bruijn graph approach for exact reads assembly,
 and a trie-based method for reads containing mismatches.
 
 ## Usage
