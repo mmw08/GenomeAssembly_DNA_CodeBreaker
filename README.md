@@ -16,8 +16,8 @@ python DNA_CODE_Breaker.py reads_file reference_file Mismatch_Flag
 **Usage**
 The script is designed to be run from the command line with the following syntax:
 
-reads_file: Path to the file containing DNA reads.
-reference_file: Path to the file containing the reference DNA sequence.
+reads_file: Path to the file containing DNA reads.<br>
+reference_file: Path to the file containing the reference DNA sequence.<br>
 Mismatch_Flag: Specify whether to consider mismatches in the reads (Y for yes, N for no).
 
 ## De Bruijin use
