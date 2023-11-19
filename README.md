@@ -10,7 +10,7 @@ The script is designed to be run from the command line with the following syntax
 
 ```bash
 python DNA_CODE_Breaker.py reads_file reference_file Mismatch_Flag
-
+```
 
 
 **Usage**
