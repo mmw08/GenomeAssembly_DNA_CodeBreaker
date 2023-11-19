@@ -1,3 +1,7 @@
+#resources:
+#https://github.com/navjindervirdee/Genome-Sequencing/blob/master/Genome%20Assembly%20using%20De%20Bruijn%20Graphs%20from%20K-Mer%20Composition/GenomeAssembly.java
+#https://github.com/xuwd11/Coursera-Bioinformatics/blob/master/61_02_TrieMatching.py
+
 import sys
 from collections import defaultdict
 import time
